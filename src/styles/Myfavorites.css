@@ -1,0 +1,40 @@
+/* RECIPE HERO SECTION */
+.fav-heros {
+  min-height:180px;
+  background:url("/myfavorite.png")
+    center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.fav-content {
+  padding: 25px 40px;
+}
+
+.fav-subtitle {
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.fav-subtitle i {
+  color: #ff9800;
+  margin-right: 15px;
+}
+
+.fav-content h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #ff9800;
+  margin: 0;
+}
+
+.fav-tagline {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+

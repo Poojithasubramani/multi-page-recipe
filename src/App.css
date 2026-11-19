@@ -1,0 +1,705 @@
+/* =========================================
+   LARGE DESKTOP RESPONSIVE
+   1200px and below
+========================================= */
+
+@media (max-width: 1200px) {
+
+    /* Navbar */
+
+    .nav-menu {
+        margin-right: 100px;
+        gap: 15px;
+    }
+
+    .search-box {
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    /* Home Hero */
+
+    .hero-content h1 {
+        font-size: 65px;
+    }
+
+    /* Recipe Hero */
+
+    .heros-content h1 {
+        font-size: 70px;
+    }
+
+    /* Recipe Details */
+
+    .recipe-title {
+        font-size: 36px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE
+   992px and below
+========================================= */
+
+@media (max-width: 991px) {
+
+    /* Navbar */
+
+    .nav-menu {
+        margin-right: 0;
+        gap: 12px;
+    }
+
+    .nav-item {
+        font-size: 16px;
+        padding: 15px 8px;
+    }
+
+    .search-box {
+        width: 100%;
+        max-width: 400px;
+        margin: 15px auto;
+    }
+
+    .brand-text h2 {
+        font-size: 30px;
+    }
+
+
+    /* Home Hero */
+
+    .hero-section {
+        min-height: 420px;
+        background-position: center;
+    }
+
+    .hero-content {
+        padding: 35px 5%;
+    }
+
+    .hero-content h1 {
+        font-size: 55px;
+    }
+
+    .hero-content h2 {
+        font-size: 25px;
+    }
+
+
+    /* About Section */
+
+    .about-image img {
+        height: 320px;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+
+
+    /* Recipe Hero */
+
+    .recipe-heros {
+        min-height: 250px;
+    }
+
+    .heros-content {
+        padding: 25px;
+    }
+
+    .heros-content h1 {
+        font-size: 60px;
+    }
+
+    .heros-subtitle {
+        font-size: 28px;
+    }
+
+
+    /* Recipe Cards */
+
+    .recipe-image {
+        height: 200px;
+    }
+
+    .recipe-content h4 {
+        font-size: 20px;
+    }
+
+
+    /* Recipe Details */
+
+    .recipe-detail-container {
+        padding: 20px;
+    }
+
+    .recipe-main-image {
+        height: 320px;
+    }
+
+    .recipe-title {
+        font-size: 32px;
+    }
+
+    .recipe-detail-info {
+        gap: 15px;
+        padding: 20px 10px;
+    }
+
+    .meta-item {
+        padding: 12px;
+    }
+
+
+    /* Footer */
+
+    .footer-logo h2 {
+        font-size: 27px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL TABLET RESPONSIVE
+   768px and below
+========================================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+
+    .brand-icon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .brand-text h2 {
+        font-size: 25px;
+    }
+
+    .brand-text small {
+        font-size: 12px;
+    }
+
+    .nav-menu {
+        gap: 8px;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        padding: 12px 6px;
+    }
+
+
+    /* Home Hero */
+
+    .hero-section {
+        min-height: 350px;
+        background-position: center;
+    }
+
+    .hero-content {
+        padding: 30px 5%;
+    }
+
+    .hero-content h1 {
+        font-size: 45px;
+    }
+
+    .hero-content h2 {
+        font-size: 22px;
+    }
+
+    .explore-btn {
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+
+    /* About Section */
+
+    .about-image img {
+        height: 280px;
+    }
+
+    .about-title {
+        font-size: 27px;
+    }
+
+    .about-description {
+        font-size: 15px;
+    }
+
+    .feature-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    /* Recipe Hero */
+
+    .recipe-heros {
+        min-height: 230px;
+    }
+
+    .heros-content h1 {
+        font-size: 48px;
+    }
+
+    .heros-subtitle {
+        font-size: 25px;
+    }
+
+    .heros-tagline {
+        font-size: 18px;
+    }
+
+    .heros-search-form {
+        max-width: 100%;
+        margin-top: 18px;
+    }
+
+
+    /* Recipe Section */
+
+    .recipe-section {
+        padding: 25px 0 40px;
+    }
+
+    .recipe-image {
+        height: 220px;
+    }
+
+
+    /* Recipe Details */
+
+    .recipe-detail-container {
+        padding: 15px;
+    }
+
+    .recipe-main-image {
+        height: 280px;
+    }
+
+    .recipe-title {
+        font-size: 29px;
+    }
+
+    .recipe-detail-info {
+        padding: 20px 10px;
+        gap: 15px;
+    }
+
+    .recipe-detail-info .recipe-meta {
+        gap: 10px;
+    }
+
+    .meta-item {
+        padding: 10px;
+    }
+
+    .recipe-description {
+        font-size: 15px;
+    }
+
+    .section-heading {
+        padding: 15px;
+    }
+
+    .section-heading h3 {
+        font-size: 20px;
+    }
+
+    .ingredient-item img {
+        width: 55px;
+    }
+
+
+    /* Footer */
+
+    .footer-content h5 {
+        font-size: 17px;
+    }
+
+}
+
+/* =========================================
+   MOBILE RESPONSIVE
+   576px and below
+========================================= */
+
+@media (max-width: 576px) {
+
+    /* -------------------------------------
+       NAVBAR
+    ------------------------------------- */
+
+    .tb-navbar {
+        padding: 10px;
+    }
+
+    .brand-icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .brand-text h2 {
+        font-size: 20px;
+    }
+
+    .brand-text small {
+        font-size: 10px;
+    }
+
+    .nav-menu {
+        margin-right: 0;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .nav-item {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+
+    .nav-item i {
+        font-size: 13px;
+    }
+
+    .search-box {
+        width: 100%;
+        margin: 10px 0;
+        height: 45px;
+    }
+
+
+    /* -------------------------------------
+       HOME - HERO SECTION
+    ------------------------------------- */
+
+    .hero-section {
+        min-height: 320px;
+        background-position: center;
+    }
+
+    .hero-content {
+        padding: 25px 20px;
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content h2 {
+        font-size: 19px;
+    }
+
+    .explore-btn {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+
+    /* -------------------------------------
+       HOME - ABOUT SECTION
+    ------------------------------------- */
+
+    .about-image img {
+        height: 230px;
+    }
+
+    .about-title {
+        font-size: 25px;
+    }
+
+    .about-description {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .about-subtitle {
+        font-size: 14px;
+    }
+
+    .feature-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .feature-icon i {
+        font-size: 23px;
+    }
+
+    .about-features h6 {
+        font-size: 13px;
+    }
+
+    .about-features p {
+        font-size: 12px;
+    }
+
+
+    /* -------------------------------------
+       RECIPE - HERO SECTION
+    ------------------------------------- */
+
+    .recipe-heros {
+        min-height: 230px;
+        background-position: center;
+    }
+
+    .heros-content {
+        padding: 20px 12px;
+    }
+
+    .heros-content h1 {
+        font-size: 40px;
+    }
+
+    .heros-subtitle {
+        font-size: 23px;
+    }
+
+    .heros-subtitle i {
+        margin-right: 7px;
+    }
+
+    .heros-tagline {
+        font-size: 15px;
+    }
+
+
+    /* -------------------------------------
+       RECIPE - SEARCH FORM
+    ------------------------------------- */
+
+    .heros-search-form {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .heros-search-form .input-group {
+        padding: 3px;
+    }
+
+    .heros-search-form .form-control {
+        font-size: 13px;
+        padding: 9px;
+    }
+
+    .heros-search-form .search-btn {
+        padding: 9px 12px;
+        font-size: 12px;
+    }
+
+
+    /* -------------------------------------
+       RECIPE - MAIN SECTION
+    ------------------------------------- */
+
+    .recipe-section {
+        padding: 20px 0 35px;
+    }
+
+    .recipe-card {
+        border-radius: 15px;
+    }
+
+    .recipe-image {
+        height: 210px;
+    }
+
+    .recipe-tag {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .recipe-content {
+        padding: 14px 10px;
+    }
+
+    .recipe-content h4 {
+        font-size: 19px;
+    }
+
+    .recipe-content p {
+        font-size: 14px;
+    }
+
+    .view-btn {
+        width: 100%;
+        padding: 11px;
+        font-size: 13px;
+    }
+
+
+    /* -------------------------------------
+       RECIPE DETAILS PAGE
+    ------------------------------------- */
+
+    .recipe-detail-container {
+        padding: 10px;
+    }
+
+    .recipe-main-image {
+        height: 230px;
+        border-radius: 12px;
+    }
+
+    .category-badge {
+        bottom: 12px;
+        left: 12px;
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .recipe-title {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+
+    .recipe-detail-info {
+        padding: 18px 8px;
+        gap: 13px;
+    }
+
+    .recipe-detail-info .recipe-meta {
+        gap: 8px;
+    }
+
+    .meta-item {
+        padding: 9px;
+        gap: 7px;
+        border-radius: 9px;
+    }
+
+    .meta-item i {
+        font-size: 20px;
+    }
+
+    .meta-item h6 {
+        font-size: 13px;
+    }
+
+    .meta-item small {
+        font-size: 11px;
+    }
+
+    .recipe-description {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .youtube-btn {
+        padding: 9px 13px;
+        font-size: 13px;
+    }
+
+    .detail-card {
+        border-radius: 12px;
+    }
+
+    .section-heading {
+        padding: 13px;
+        gap: 10px;
+    }
+
+    .section-heading i {
+        font-size: 21px;
+    }
+
+    .section-heading h3 {
+        font-size: 18px;
+    }
+
+    .ingredients-list {
+        padding: 10px;
+    }
+
+    .ingredient-item {
+        gap: 8px;
+        min-height: 55px;
+    }
+
+    .ingredient-item img {
+        width: 42px;
+        height: 45px;
+    }
+
+    .ingredient-name {
+        font-size: 13px;
+    }
+
+    .ingredient-quantity {
+        min-width: 65px;
+        padding: 6px;
+        font-size: 11px;
+    }
+
+    .instructions-list {
+        padding: 12px;
+    }
+
+    .instructions-list li {
+        padding: 12px 5px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* -------------------------------------
+       FAVORITES PAGE
+    ------------------------------------- */
+
+    /* Favorite cards use the existing
+       recipe-card styles above. */
+
+    .recipe-card {
+        margin-bottom: 10px;
+    }
+
+
+    /* -------------------------------------
+       FOOTER
+    ------------------------------------- */
+
+    .footer-logo h2 {
+        font-size: 24px;
+    }
+
+    .footer-logo h2 i {
+        font-size: 28px;
+    }
+
+    .footer-logo p {
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    .footer-content h5 {
+        font-size: 16px;
+    }
+
+    .footer-links li {
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .social-icons {
+        gap: 10px;
+    }
+
+    .social-icons a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+}

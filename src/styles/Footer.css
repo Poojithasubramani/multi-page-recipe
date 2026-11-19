@@ -1,0 +1,139 @@
+/* Footer Section */
+
+
+.footer-section {
+  background: linear-gradient(
+    120deg,
+    #160e08,
+    #29170c,
+    #120b06
+  );
+  color: white;
+  /* padding: 30px 0 15px; */
+  /* position: relative; */
+}
+
+/* Logo */
+.footer-logo h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  /* margin-bottom: 0; */
+}
+
+.footer-logo h2 i {
+  color: #ff9700;
+  font-size: 38px;
+  margin-right: 10px;
+}
+
+.footer-logo h2 span {
+  color: #ff9700;
+}
+
+.footer-logo p {
+  margin-left: 55px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.social-title {
+  font-size: 14px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 10px; */
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 36px;
+  border-radius: 70%;
+  background: #1877f2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:nth-child(2) {
+  background: #e50914;
+}
+
+.social-icons a:nth-child(3) {
+  background: #c13584;
+}
+
+.social-icons a:nth-child(4) {
+  background: #0a66c2;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer Headings */
+.footer-content h5 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Footer Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.link-tag{
+    text-decoration: none;
+    color: white;
+
+}
+.link-tag:hover{
+     color: #ff9500;
+
+
+}
+
+.footer-links li i {
+  color: #ff9500;
+  font-size: 17px;
+}
+
+.footer-links li:hover {
+  color: #ff9500;
+}
+
+/* Copyright */
+.footer-bottom {
+  border-top: 1px solid #bd7800;
+  margin-top: 25px;
+  padding-top: 18px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-bottom i {
+  color: #ff352b;
+  margin-left: 5px;
+}
